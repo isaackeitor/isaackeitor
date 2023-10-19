@@ -1,5 +1,6 @@
-<h1 align="center">Hola, mi nombre es Isaac Morales! 👻</h1>
+<h1 align="center">Hola, mi nombre es Josué Morales! 👻</h1>
 
+## 🚀 Acerca de mí
 <p align="justify">
 Soy un estudiante de tercer año de la carrera de Ingeniería en
 Ciencias de la Computación y Tecnologías de la Información en la
