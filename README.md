@@ -1,6 +1,6 @@
 <h1 align="center">Hola, mi nombre es Isaac Morales! 👻</h1>
 
-<h3 align="justify">
+<p align="justify">
 Soy un estudiante de tercer año de la carrera de Ingeniería en
 Ciencias de la Computación y Tecnologías de la Información en la
 Universidad del Valle de Guatemala.
@@ -9,7 +9,7 @@ aplicación práctica de los conocimientos adquiridos. Apasionado
 por resolver desafíos complejos en el ámbito de la tecnología y con
 un interés especial en la innovación y el desarrollo de soluciones
 tecnológicas que aporten al progreso en diversas industrias.
-</h3>
+</p>
 
 ## 🚀 Acerca de mí
 🎓 Estudio [tu carrera] en [tu universidad o lugar de estudio].
