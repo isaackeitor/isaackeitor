@@ -12,11 +12,11 @@ tecnológicas que aporten al progreso en diversas industrias.
 👯 Estoy interesado en colaborar en proyectos de desarrollo móvil.
 </p>
 
-## 📫 Contáctame
 <p align="justify">
 <a href="https://www.linkedin.com/in/isaackeitor/" target="blank"><img align="center" src="https://www.vectorlogo.zone/logos/linkedin/linkedin-icon.svg" alt="josue-morales-" height="30" width="40" /></a>
 <a href="https://www.instagram.com/josueimg13/" target="blank"><img align="center" src="https://www.vectorlogo.zone/logos/instagram/instagram-icon.svg" alt="josue-morales-" height="30" width="40" /></a>
-</p>
+
+## 📫 Contáctame
 
 ## 📊 Mis estadísticas de GitHub
 <p align="justify">
@@ -26,5 +26,3 @@ tecnológicas que aporten al progreso en diversas industrias.
 
 <img align="justify" src="https://github-readme-streak-stats.herokuapp.com/?user=isaackeitor&" alt="josue-morales-" />
 </p>
-## 🤝 Conecta conmigo
-[enlaces a tus perfiles en redes sociales o webs personales]
