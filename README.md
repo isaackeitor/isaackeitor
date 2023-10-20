@@ -26,5 +26,4 @@
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=isaackeitor&" alt="josue-morales-" />
 </p>
 
-![Contador de visitantes](https://komarev.com/ghpvc/?username=isaackeitor)
-
+![Contador de visitantes](https://komarev.com/ghpvc/?username=isaackeitor&color=blueviolet&style=flat-square&label=Profile+Views)
