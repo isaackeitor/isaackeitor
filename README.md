@@ -25,6 +25,9 @@ tecnológicas que aporten al progreso en diversas industrias.
 <p align="justify">
 <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=isaackeitor&show_icons=true&locale=en&layout=compact" alt="josue-morales-" />
 
+<br />
+<br />
+
 <img align="left" src="https://github-readme-stats.vercel.app/api?username=isaackeitor&show_icons=true&locale=en" alt="josue-morales-" />
 
 <br />
