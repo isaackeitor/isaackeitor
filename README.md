@@ -22,7 +22,8 @@ tecnológicas que aporten al progreso en diversas industrias.
 </p>
 
 ## 📊 Mis estadísticas de GitHub
-<p align="justify">
+<p align="center">
+
 <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=isaackeitor&show_icons=true&locale=en&layout=compact" alt="josue-morales-" />
 
 
