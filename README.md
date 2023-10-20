@@ -14,11 +14,6 @@
 <a href="https://www.instagram.com/josueimg13/" target="blank"><img src="https://www.vectorlogo.zone/logos/instagram/instagram-icon.svg" alt="josue-morales-" height="30" width="40" /></a>
 </p>
 
-## 🤝 Conecta conmigo
-<p align="center">
-[enlaces a tus perfiles en redes sociales o webs personales]
-</p>
-
 ## 📊 Mis estadísticas de GitHub
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=isaackeitor&show_icons=true&locale=en&layout=compact" alt="josue-morales-" />
