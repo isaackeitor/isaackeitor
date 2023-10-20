@@ -25,3 +25,6 @@
   <img src="https://github-readme-stats.vercel.app/api?username=isaackeitor&show_icons=true&locale=en" alt="josue-morales-" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=isaackeitor&" alt="josue-morales-" />
 </p>
+
+![Contador de visitantes](https://komarev.com/ghpvc/?username=isaackeitor)
+
