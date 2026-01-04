@@ -28,14 +28,14 @@ Ingeniero en Ciencias de la Computación de la Universidad del Valle de Guatemal
 ### GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=isaackeitor&show_icons=true&include_all_commits=true&theme=github_dark&hide_border=true&bg_color=0d1117" height="180" alt="GitHub Stats">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=isaackeitor&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&langs_count=8" height="180" alt="Top Languages">
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=isaackeitor&show_icons=true&include_all_commits=true&theme=transparent&hide_border=true" height="180" alt="GitHub Stats">
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=isaackeitor&layout=compact&theme=transparent&hide_border=true&langs_count=8" height="180" alt="Top Languages">
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=isaackeitor&theme=github-dark&hide_border=true&bg_color=0d1117&color=58a6ff&line=58a6ff&point=ffffff" alt="Activity Graph">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=isaackeitor&theme=github-compact&hide_border=true&area=true" alt="Activity Graph">
 </p>
 
 <p align="center">
-  <img src="https://github-trophies.vercel.app/?username=isaackeitor&theme=onedark&no-frame=true&no-bg=true&column=6&rank=SSS,SS,S,AAA,AA,A,B" alt="Trophies">
+  <img src="https://github-trophies.vercel.app/?username=isaackeitor&theme=flat&no-frame=true&no-bg=true&column=6&rank=SSS,SS,S,AAA,AA,A,B" alt="Trophies">
 </p>
