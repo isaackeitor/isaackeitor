@@ -1,24 +1,41 @@
-<h1 align="center">Hola, mi nombre es Josué Morales! 👻</h1>
+# Josué Morales
 
-## 🚀 Acerca de mí
-<p align="justify">
-🎓 Soy un estudiante de Ingeniería en Ciencias de la Computación y Tecnologías de la Información en la Universdidad del Valle de Guatemala.
-🔭 Poseo un fuerte impulso por la excelencia académica y la aplicación práctica de los conocimientos adquiridos. Apasionado por resolver desafíos complejos en el ámbito de la tecnología y con un interés especial en la innovación y el desarrollo de soluciones tecnológicas que aporten al progreso en diversas industrias.
-🌱 Actualmente estoy aprendiendo desarrollo web, bases de datos, desarrollo móvil, etc.
-👻
-</p>
+**Software Engineer @ Webtrack**
 
-## 📫 Contáctame
+Ingeniero en Ciencias de la Computación de la Universidad del Valle de Guatemala. Desarrollo soluciones full-stack con enfoque en arquitecturas escalables, sistemas de gestión empresarial y aplicaciones de alto rendimiento.
+
+[![Portfolio](https://img.shields.io/badge/isaackeitor.com-000?style=for-the-badge&logo=google-chrome&logoColor=white)](https://isaackeitor.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/isaackeitor/)
+
+---
+
+### Tech Stack
+
+![C#](https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=csharp&logoColor=white)
+![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+
+---
+
+### GitHub Stats
+
 <p align="center">
-<a href="https://www.linkedin.com/in/isaackeitor/" target="blank"><img src="https://www.vectorlogo.zone/logos/linkedin/linkedin-icon.svg" alt="josue-morales-" height="30" width="40" /></a>
-<a href="https://www.instagram.com/josueimg13/" target="blank"><img src="https://www.vectorlogo.zone/logos/instagram/instagram-icon.svg" alt="josue-morales-" height="30" width="40" /></a>
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=isaackeitor&show_icons=true&include_all_commits=true&theme=github_dark&hide_border=true&bg_color=0d1117" height="180" alt="GitHub Stats">
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=isaackeitor&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&langs_count=8" height="180" alt="Top Languages">
 </p>
 
-## 📊 Mis estadísticas de GitHub
 <p align="center">
-  <a href="#"><img alt="Estadísticas de GitHub" src="https://github-readme-stats.vercel.app/api?username=isaackeitor&show_icons=true&include_all_commits=true&theme=blueberry&hide_border=true" height="165"></a>
-  <a href="#"><img alt="Lenguajes más usados" src="https://github-readme-stats.vercel.app/api/top-langs/?username=isaackeitor&layout=compact&theme=blueberry&hide_border=true" height="165"></a>
-  <a href="#"><img alt="Racha de GitHub" src="https://github-readme-streak-stats.herokuapp.com/?user=isaackeitor&theme=blueberry&hide_border=true" height="165"></a>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=isaackeitor&theme=github-dark&hide_border=true&bg_color=0d1117&color=58a6ff&line=58a6ff&point=ffffff" alt="Activity Graph">
 </p>
 
-![Contador de visitantes](https://komarev.com/ghpvc/?username=isaackeitor&color=blueviolet&style=flat-square&label=Profile+Views)
+<p align="center">
+  <img src="https://github-trophies.vercel.app/?username=isaackeitor&theme=onedark&no-frame=true&no-bg=true&column=6&rank=SSS,SS,S,AAA,AA,A,B" alt="Trophies">
+</p>
