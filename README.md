@@ -1,6 +1,6 @@
 # Josué Morales
 
-**Software Engineer @ Webtrack**
+**Software Engineer @Webtrack**
 
 Ingeniero en Ciencias de la Computación de la Universidad del Valle de Guatemala. Desarrollo soluciones full-stack con enfoque en arquitecturas escalables, sistemas de gestión empresarial y aplicaciones de alto rendimiento.
 
