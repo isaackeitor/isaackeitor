@@ -12,7 +12,7 @@ text { white-space: pre; }
   <g transform="translate(26 26) scale(1.25)" fill="none" stroke="#0071e3" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 21 7.5 12 12 3 7.5Z"/><path d="m3 12 9 4.5 9-4.5"/><path d="m3 16.5 9 4.5 9-4.5"/></g>
   <text x="28" y="104" class="tile-title" fill="#1d1d1f">Full-stack</text>
   <text x="28" y="134" class="tile-body" fill="#6e6e73">De la base de datos a la interfaz, con</text>
-  <text x="28" y="157" class="tile-body" fill="#6e6e73">.NET, Node.js y React sobre TypeScript.</text>
+  <text x="28" y="157" class="tile-body" fill="#6e6e73">TypeScript, React, Next.js y Node.js.</text>
 </g>
 <g transform="translate(426 104)">
   <rect x="0.5" y="0.5" width="413" height="183" rx="22" fill="#f5f5f7" stroke="none"/>

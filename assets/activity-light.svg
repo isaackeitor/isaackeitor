@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="96" viewBox="0 0 840 96" role="img" aria-label="Actividad. Un año en GitHub.">
+<title>Actividad. Un año en GitHub.</title>
+<style>
+text { white-space: pre; }
+.headline { font: 600 32px -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; letter-spacing: -0.005em; }
+</style>
+<text x="0" y="72" class="headline"><tspan fill="#1d1d1f">Actividad. </tspan><tspan fill="#6e6e73">Un año en GitHub.</tspan></text>
+</svg>

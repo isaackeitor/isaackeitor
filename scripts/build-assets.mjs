@@ -2,11 +2,14 @@
 // Generates the profile README artwork in light and dark variants.
 // Edit the content below, then run: node scripts/build-assets.mjs
 
-import { mkdirSync, writeFileSync } from 'node:fs';
+import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-const OUT = join(dirname(fileURLToPath(import.meta.url)), '..', 'assets');
+const HERE = dirname(fileURLToPath(import.meta.url));
+const OUT = join(HERE, '..', 'assets');
+// Logos from Devicon (MIT). A `<name>-dark.svg` file, when present, is used on dark backgrounds.
+const ICONS_DIR = join(HERE, 'icons');
 
 // ─── Content ────────────────────────────────────────────────────────────────
 
@@ -23,7 +26,7 @@ const FOCUS = {
   items: [
     {
       icon: 'layers', tint: 'blue', title: 'Full-stack',
-      body: ['De la base de datos a la interfaz, con', '.NET, Node.js y React sobre TypeScript.'],
+      body: ['De la base de datos a la interfaz, con', 'TypeScript, React, Next.js y Node.js.'],
     },
     {
       icon: 'trend', tint: 'purple', title: 'Arquitectura escalable',
@@ -46,15 +49,29 @@ const STACK = {
   groups: [
     {
       label: 'Lenguajes',
-      items: [
-        ['C#', '#178600'], ['TypeScript', '#3178c6'], ['Python', '#3572a5'],
-        ['Kotlin', '#a97bff'], ['Java', '#b07219'], ['C++', '#f34b7d'],
-      ],
+      items: [['TypeScript', 'typescript'], ['JavaScript', 'javascript'], ['C#', 'csharp'], ['Python', 'python'], ['Kotlin', 'kotlin']],
     },
-    { label: 'Frameworks', items: [['.NET', '#512bd4'], ['React', '#61dafb'], ['Node.js', '#5fa04e']] },
-    { label: 'Datos', items: [['SQL Server', '#cc2927'], ['PostgreSQL', '#336791']] },
+    {
+      label: 'Frontend',
+      items: [['React', 'react'], ['Next.js', 'nextjs'], ['Tailwind CSS', 'tailwindcss'], ['Vite', 'vitejs'], ['Astro', 'astro']],
+    },
+    {
+      label: 'Backend',
+      items: [['Node.js', 'nodejs'], ['Bun', 'bun'], ['tRPC', 'trpc'], ['Express', 'express'], ['.NET', 'dotnetcore']],
+    },
+    {
+      label: 'Datos',
+      items: [['PostgreSQL', 'postgresql'], ['Prisma', 'prisma'], ['Supabase', 'supabase'], ['Redis', 'redis'], ['SQL Server', 'microsoftsqlserver']],
+    },
+    {
+      label: 'Cloud y DevOps',
+      items: [['Docker', 'docker'], ['GitHub Actions', 'githubactions'], ['Cloudflare', 'cloudflare'], ['Vercel', 'vercel'], ['Linux', 'linux']],
+    },
+    { label: 'Testing', items: [['Vitest', 'vitest'], ['Playwright', 'playwright']] },
   ],
 };
+
+const ACTIVITY = { title: 'Actividad.', subtitle: 'Un año en GitHub.' };
 
 // ─── Design tokens ──────────────────────────────────────────────────────────
 
@@ -198,36 +215,62 @@ ${headlineStyle}
   });
 }
 
-function stack(t) {
-  const top = 104;
-  const rowH = 72;
-  const cardH = STACK.groups.length * rowH;
-  const chipH = 34;
-  const chipGap = 8;
-  const labelW = 176;
-  const size = 14;
+// Inlines a vendored logo from scripts/icons as a nested <svg>, namespacing its ids.
+function logo(file, mode, x, y, size) {
+  const dark = join(ICONS_DIR, `${file}-dark.svg`);
+  const source = readFileSync(mode === 'dark' && existsSync(dark) ? dark : join(ICONS_DIR, `${file}.svg`), 'utf8');
+  const [, attrs, inner] = source.match(/<svg([^>]*)>([\s\S]*)<\/svg>/);
+  const viewBox = attrs.match(/viewBox="([^"]+)"/)[1];
+  const fill = attrs.match(/fill="([^"]+)"/);
+  const scoped = inner
+    .replace(/\bid="([^"]+)"/g, `id="${file}-$1"`)
+    .replace(/url\(#([^)]+)\)/g, `url(#${file}-$1)`)
+    .replace(/href="#([^"]+)"/g, `href="#${file}-$1"`);
+  return `<svg x="${x}" y="${y}" width="${size}" height="${size}" viewBox="${viewBox}"${fill ? ` fill="${fill[1]}"` : ''}>${scoped}</svg>`;
+}
 
+function stack(t, mode) {
+  const top = 104;
+  const padY = 19;
+  const chipH = 34;
+  const gap = 8;
+  const labelW = 176;
+  const right = WIDTH - 28;
+  const size = 14;
+  const icon = 18;
+
+  let y = top;
   const rows = STACK.groups.map((group, r) => {
-    const cy = top + r * rowH + rowH / 2;
+    // Lay chips out left to right, wrapping onto a new line when one fills up.
+    const lines = [[]];
     let x = labelW;
-    const chips = group.items.map(([name, color]) => {
+    for (const [name, file] of group.items) {
       const textW = measure(name, size);
-      const w = Math.ceil(30 + textW + 16);
-      const chip = `
-  <g transform="translate(${x} ${cy - chipH / 2})">
+      const w = Math.ceil(12 + icon + 8 + textW + 14);
+      if (x + w > right && lines.at(-1).length) {
+        lines.push([]);
+        x = labelW;
+      }
+      lines.at(-1).push({ name, file, textW, x, w });
+      x += w + gap;
+    }
+
+    const rowTop = y;
+    y += padY * 2 + lines.length * chipH + (lines.length - 1) * gap;
+
+    const chips = lines.flatMap((line, l) => line.map(({ name, file, textW, x, w }) => `
+  <g transform="translate(${x} ${rowTop + padY + l * (chipH + gap)})">
     <rect x="0.5" y="0.5" width="${w - 1}" height="${chipH - 1}" rx="${(chipH - 1) / 2}" fill="${t.chip}" stroke="${t.chipStroke}"/>
-    <circle cx="17" cy="${chipH / 2}" r="4.5" fill="${color}"/>
-    <text x="${30 + textW / 2}" y="${chipH / 2 + 5}" text-anchor="middle" class="chip" fill="${t.primary}">${esc(name)}</text>
-  </g>`;
-      x += w + chipGap;
-      return chip;
-    });
+    ${logo(file, mode, 12, (chipH - icon) / 2, icon)}
+    <text x="${12 + icon + 8 + textW / 2}" y="${chipH / 2 + 5}" text-anchor="middle" class="chip" fill="${t.primary}">${esc(name)}</text>
+  </g>`));
     const divider = r > 0
-      ? `\n  <line x1="28" x2="${WIDTH - 28}" y1="${top + r * rowH}" y2="${top + r * rowH}" stroke="${t.hairline}"/>`
+      ? `\n  <line x1="28" x2="${right}" y1="${rowTop}" y2="${rowTop}" stroke="${t.hairline}"/>`
       : '';
     return `${divider}
-  <text x="28" y="${cy + 5}" class="row-label" fill="${t.secondary}">${esc(group.label)}</text>${chips.join('')}`;
+  <text x="28" y="${rowTop + padY + chipH / 2 + 5}" class="row-label" fill="${t.secondary}">${esc(group.label)}</text>${chips.join('')}`;
   });
+  const cardH = y - top;
 
   return svg({
     width: WIDTH,
@@ -242,6 +285,17 @@ ${headlineStyle}
   });
 }
 
+// Headline for the 3D contribution chart, which a GitHub Action renders below it.
+function activity(t) {
+  return svg({
+    width: WIDTH,
+    height: 96,
+    title: `${ACTIVITY.title} ${ACTIVITY.subtitle}`,
+    style: headlineStyle,
+    body: headline(t, ACTIVITY.title, ACTIVITY.subtitle, 72),
+  });
+}
+
 // ─── Build ──────────────────────────────────────────────────────────────────
 
 mkdirSync(OUT, { recursive: true });
@@ -250,7 +304,8 @@ for (const [mode, t] of Object.entries(THEMES)) {
   const files = {
     [`hero-${mode}.svg`]: hero(t),
     [`focus-${mode}.svg`]: focus(t),
-    [`stack-${mode}.svg`]: stack(t),
+    [`stack-${mode}.svg`]: stack(t, mode),
+    [`activity-${mode}.svg`]: activity(t),
     ...Object.fromEntries(LINKS.map((l) => [`button-${l.id}-${mode}.svg`, button(t, l)])),
   };
   for (const [name, content] of Object.entries(files)) {

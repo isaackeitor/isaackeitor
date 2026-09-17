@@ -14,5 +14,15 @@ Ingeniero en Ciencias de la Computación por la Universidad del Valle de Guatema
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/isaackeitor/isaackeitor/main/assets/stack-dark.svg">
-  <img alt="Stack. Lenguajes: C#, TypeScript, Python, Kotlin, Java, C++. Frameworks: .NET, React, Node.js. Datos: SQL Server, PostgreSQL." src="https://raw.githubusercontent.com/isaackeitor/isaackeitor/main/assets/stack-light.svg">
+  <img alt="Stack. Lenguajes: TypeScript, JavaScript, C#, Python, Kotlin. Frontend: React, Next.js, Tailwind CSS, Vite, Astro. Backend: Node.js, Bun, tRPC, Express, .NET. Datos: PostgreSQL, Prisma, Supabase, Redis, SQL Server. Cloud y DevOps: Docker, GitHub Actions, Cloudflare, Vercel, Linux. Testing: Vitest, Playwright." src="https://raw.githubusercontent.com/isaackeitor/isaackeitor/main/assets/stack-light.svg">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/isaackeitor/isaackeitor/main/assets/activity-dark.svg">
+  <img alt="Actividad. Un año en GitHub." src="https://raw.githubusercontent.com/isaackeitor/isaackeitor/main/assets/activity-light.svg">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/isaackeitor/isaackeitor/main/profile-3d-contrib/contributions-dark.svg">
+  <img alt="Calendario de contribuciones en 3D con commits, pull requests, issues, reviews y lenguajes del último año." src="https://raw.githubusercontent.com/isaackeitor/isaackeitor/main/profile-3d-contrib/contributions-light.svg">
 </picture>

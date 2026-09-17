@@ -1,0 +1,41 @@
+name: Contribuciones 3D
+
+on:
+  schedule: # 01:00 in Guatemala (UTC-6)
+    - cron: "0 7 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-3d-contrib
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: yoshi389111/github-profile-3d-contrib@v0.9.3
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+          SETTING_JSON: .github/profile-3d-contrib.json
+
+      # The action hardcodes its font and "other" slice; align them with the README artwork.
+      - name: Match profile typography and palette
+        run: |
+          sed -i 's/"Ubuntu", "Helvetica", "Arial", sans-serif/-apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif/' profile-3d-contrib/*.svg
+          sed -i 's/#444444/#c7c7cc/g; s/>other</>Otros</g' profile-3d-contrib/contributions-light.svg
+          sed -i 's/#444444/#48484a/g; s/>other</>Otros</g' profile-3d-contrib/contributions-dark.svg
+
+      - name: Commit & push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile-3d-contrib
+          if git commit -m "Update 3D contributions"; then
+            git push
+          fi

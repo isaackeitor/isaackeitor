@@ -1,0 +1,40 @@
+[
+  {
+    "type": "normal",
+    "fileName": "contributions-light.svg",
+    "backgroundColor": "#ffffff",
+    "foregroundColor": "#1d1d1f",
+    "strongColor": "#1d1d1f",
+    "weakColor": "#86868b",
+    "radarColor": "#34c759",
+    "growingAnimation": false,
+    "contribColors": ["#e8e8ed", "#b4e8c2", "#6fd28c", "#34b35a", "#1f8a41"],
+    "l10n": {
+      "commit": "Commits",
+      "repo": "Repos",
+      "review": "Reviews",
+      "pullreq": "Pull requests",
+      "issue": "Issues",
+      "contrib": "contribuciones"
+    }
+  },
+  {
+    "type": "normal",
+    "fileName": "contributions-dark.svg",
+    "backgroundColor": "#0d1117",
+    "foregroundColor": "#f5f5f7",
+    "strongColor": "#f5f5f7",
+    "weakColor": "#8b8b91",
+    "radarColor": "#30d158",
+    "growingAnimation": false,
+    "contribColors": ["#262a31", "#1b4d2c", "#1f7a3c", "#28a74b", "#30d158"],
+    "l10n": {
+      "commit": "Commits",
+      "repo": "Repos",
+      "review": "Reviews",
+      "pullreq": "Pull requests",
+      "issue": "Issues",
+      "contrib": "contribuciones"
+    }
+  }
+]
