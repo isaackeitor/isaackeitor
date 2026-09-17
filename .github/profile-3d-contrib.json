@@ -8,7 +8,7 @@
     "weakColor": "#86868b",
     "radarColor": "#34c759",
     "growingAnimation": false,
-    "contribColors": ["#e8e8ed", "#b4e8c2", "#6fd28c", "#34b35a", "#1f8a41"],
+    "contribColors": ["#e8e8ed", "#a3e4b4", "#5acb7c", "#2aa84f", "#177a38"],
     "l10n": {
       "commit": "Commits",
       "repo": "Repos",
@@ -27,7 +27,7 @@
     "weakColor": "#8b8b91",
     "radarColor": "#30d158",
     "growingAnimation": false,
-    "contribColors": ["#262a31", "#1b4d2c", "#1f7a3c", "#28a74b", "#30d158"],
+    "contribColors": ["#262a31", "#237a41", "#29a94f", "#30d158", "#7ee8a2"],
     "l10n": {
       "commit": "Commits",
       "repo": "Repos",
