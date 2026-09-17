@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="168" viewBox="0 0 840 168" role="img" aria-label="Josué Morales. Software Engineer.">
+<title>Josué Morales. Software Engineer.</title>
+<style>
+text { white-space: pre; }
+.display { font: 600 56px -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; letter-spacing: -0.015em; }
+</style>
+<text x="0" y="62" class="display" fill="#f5f5f7">Josué Morales.</text>
+<text x="0" y="130" class="display" fill="#a1a1a6">Software Engineer.</text>
+</svg>

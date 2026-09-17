@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="324" viewBox="0 0 840 324" role="img" aria-label="Stack. Lenguajes: C#, TypeScript, Python, Kotlin, Java, C++. Frameworks: .NET, React, Node.js. Datos: SQL Server, PostgreSQL.">
+<title>Stack. Lenguajes: C#, TypeScript, Python, Kotlin, Java, C++. Frameworks: .NET, React, Node.js. Datos: SQL Server, PostgreSQL.</title>
+<style>
+text { white-space: pre; }
+.headline { font: 600 32px -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; letter-spacing: -0.005em; }
+.row-label { font: 500 15px -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; letter-spacing: -0.005em; }
+.chip { font: 500 14px -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; letter-spacing: -0.005em; }
+</style>
+<text x="0" y="72" class="headline"><tspan fill="#f5f5f7">Stack. </tspan><tspan fill="#a1a1a6">Con qué lo construyo.</tspan></text>
+<rect x="0.5" y="104.5" width="839" height="215" rx="22" fill="rgba(255,255,255,0.045)" stroke="rgba(255,255,255,0.08)"/>
+  <text x="28" y="145" class="row-label" fill="#a1a1a6">Lenguajes</text>
+  <g transform="translate(176 123)">
+    <rect x="0.5" y="0.5" width="64" height="33" rx="16.5" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.07)"/>
+    <circle cx="17" cy="17" r="4.5" fill="#178600"/>
+    <text x="39.30384" y="22" text-anchor="middle" class="chip" fill="#f5f5f7">C#</text>
+  </g>
+  <g transform="translate(249 123)">
+    <rect x="0.5" y="0.5" width="115" height="33" rx="16.5" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.07)"/>
+    <circle cx="17" cy="17" r="4.5" fill="#3178c6"/>
+    <text x="64.79112" y="22" text-anchor="middle" class="chip" fill="#f5f5f7">TypeScript</text>
+  </g>
+  <g transform="translate(373 123)">
+    <rect x="0.5" y="0.5" width="91" height="33" rx="16.5" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.07)"/>
+    <circle cx="17" cy="17" r="4.5" fill="#3572a5"/>
+    <text x="52.662639999999996" y="22" text-anchor="middle" class="chip" fill="#f5f5f7">Python</text>
+  </g>
+  <g transform="translate(473 123)">
+    <rect x="0.5" y="0.5" width="82" height="33" rx="16.5" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.07)"/>
+    <circle cx="17" cy="17" r="4.5" fill="#a97bff"/>
+    <text x="48.20728" y="22" text-anchor="middle" class="chip" fill="#f5f5f7">Kotlin</text>
+  </g>
+  <g transform="translate(564 123)">
+    <rect x="0.5" y="0.5" width="76" height="33" rx="16.5" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.07)"/>
+    <circle cx="17" cy="17" r="4.5" fill="#b07219"/>
+    <text x="45.37536" y="22" text-anchor="middle" class="chip" fill="#f5f5f7">Java</text>
+  </g>
+  <g transform="translate(649 123)">
+    <rect x="0.5" y="0.5" width="73" height="33" rx="16.5" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.07)"/>
+    <circle cx="17" cy="17" r="4.5" fill="#f34b7d"/>
+    <text x="43.7592" y="22" text-anchor="middle" class="chip" fill="#f5f5f7">C++</text>
+  </g>
+  <line x1="28" x2="812" y1="176" y2="176" stroke="rgba(255,255,255,0.08)"/>
+  <text x="28" y="217" class="row-label" fill="#a1a1a6">Frameworks</text>
+  <g transform="translate(176 195)">
+    <rect x="0.5" y="0.5" width="79" height="33" rx="16.5" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.07)"/>
+    <circle cx="17" cy="17" r="4.5" fill="#512bd4"/>
+    <text x="46.583839999999995" y="22" text-anchor="middle" class="chip" fill="#f5f5f7">.NET</text>
+  </g>
+  <g transform="translate(264 195)">
+    <rect x="0.5" y="0.5" width="84" height="33" rx="16.5" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.07)"/>
+    <circle cx="17" cy="17" r="4.5" fill="#61dafb"/>
+    <text x="49.01536" y="22" text-anchor="middle" class="chip" fill="#f5f5f7">React</text>
+  </g>
+  <g transform="translate(357 195)">
+    <rect x="0.5" y="0.5" width="95" height="33" rx="16.5" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.07)"/>
+    <circle cx="17" cy="17" r="4.5" fill="#5fa04e"/>
+    <text x="54.6792" y="22" text-anchor="middle" class="chip" fill="#f5f5f7">Node.js</text>
+  </g>
+  <line x1="28" x2="812" y1="248" y2="248" stroke="rgba(255,255,255,0.08)"/>
+  <text x="28" y="289" class="row-label" fill="#a1a1a6">Datos</text>
+  <g transform="translate(176 267)">
+    <rect x="0.5" y="0.5" width="122" height="33" rx="16.5" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.07)"/>
+    <circle cx="17" cy="17" r="4.5" fill="#cc2927"/>
+    <text x="68.03072" y="22" text-anchor="middle" class="chip" fill="#f5f5f7">SQL Server</text>
+  </g>
+  <g transform="translate(307 267)">
+    <rect x="0.5" y="0.5" width="125" height="33" rx="16.5" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.07)"/>
+    <circle cx="17" cy="17" r="4.5" fill="#336791"/>
+    <text x="69.65415999999999" y="22" text-anchor="middle" class="chip" fill="#f5f5f7">PostgreSQL</text>
+  </g>
+</svg>

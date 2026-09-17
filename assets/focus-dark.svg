@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="488" viewBox="0 0 840 488" role="img" aria-label="Enfoque. Lo que construyo. Full-stack, Arquitectura escalable, Sistemas empresariales, Alto rendimiento.">
+<title>Enfoque. Lo que construyo. Full-stack, Arquitectura escalable, Sistemas empresariales, Alto rendimiento.</title>
+<style>
+text { white-space: pre; }
+.headline { font: 600 32px -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; letter-spacing: -0.005em; }
+.tile-title { font: 600 19px -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; letter-spacing: -0.01em; }
+.tile-body { font: 400 15px -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; letter-spacing: -0.005em; }
+</style>
+<text x="0" y="72" class="headline"><tspan fill="#f5f5f7">Enfoque. </tspan><tspan fill="#a1a1a6">Lo que construyo.</tspan></text>
+<g transform="translate(0 104)">
+  <rect x="0.5" y="0.5" width="413" height="183" rx="22" fill="rgba(255,255,255,0.045)" stroke="rgba(255,255,255,0.08)"/>
+  <g transform="translate(26 26) scale(1.25)" fill="none" stroke="#2997ff" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 21 7.5 12 12 3 7.5Z"/><path d="m3 12 9 4.5 9-4.5"/><path d="m3 16.5 9 4.5 9-4.5"/></g>
+  <text x="28" y="104" class="tile-title" fill="#f5f5f7">Full-stack</text>
+  <text x="28" y="134" class="tile-body" fill="#a1a1a6">De la base de datos a la interfaz, con</text>
+  <text x="28" y="157" class="tile-body" fill="#a1a1a6">.NET, Node.js y React sobre TypeScript.</text>
+</g>
+<g transform="translate(426 104)">
+  <rect x="0.5" y="0.5" width="413" height="183" rx="22" fill="rgba(255,255,255,0.045)" stroke="rgba(255,255,255,0.08)"/>
+  <g transform="translate(26 26) scale(1.25)" fill="none" stroke="#bf5af2" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="m3 17 6-6 4 4 8-8"/><path d="M15 7h6v6"/></g>
+  <text x="28" y="104" class="tile-title" fill="#f5f5f7">Arquitectura escalable</text>
+  <text x="28" y="134" class="tile-body" fill="#a1a1a6">Sistemas modulares y APIs diseñadas para</text>
+  <text x="28" y="157" class="tile-body" fill="#a1a1a6">crecer sin perder mantenibilidad.</text>
+</g>
+<g transform="translate(0 300)">
+  <rect x="0.5" y="0.5" width="413" height="183" rx="22" fill="rgba(255,255,255,0.045)" stroke="rgba(255,255,255,0.08)"/>
+  <g transform="translate(26 26) scale(1.25)" fill="none" stroke="#ff9f0a" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="7" width="18" height="13" rx="2.5"/><path d="M8.5 7V5.5a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2V7"/><path d="M3 12.5h18"/></g>
+  <text x="28" y="104" class="tile-title" fill="#f5f5f7">Sistemas empresariales</text>
+  <text x="28" y="134" class="tile-body" fill="#a1a1a6">Plataformas de gestión que ordenan</text>
+  <text x="28" y="157" class="tile-body" fill="#a1a1a6">procesos y simplifican la operación.</text>
+</g>
+<g transform="translate(426 300)">
+  <rect x="0.5" y="0.5" width="413" height="183" rx="22" fill="rgba(255,255,255,0.045)" stroke="rgba(255,255,255,0.08)"/>
+  <g transform="translate(26 26) scale(1.25)" fill="none" stroke="#30d158" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2.5 4.5 13.5H12l-1 8 8.5-11H12z"/></g>
+  <text x="28" y="104" class="tile-title" fill="#f5f5f7">Alto rendimiento</text>
+  <text x="28" y="134" class="tile-body" fill="#a1a1a6">Aplicaciones rápidas y confiables,</text>
+  <text x="28" y="157" class="tile-body" fill="#a1a1a6">optimizadas en cada capa.</text>
+</g>
+</svg>

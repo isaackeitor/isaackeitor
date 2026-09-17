@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="111" height="38" viewBox="0 0 111 38" role="img" aria-label="LinkedIn">
+<title>LinkedIn</title>
+<style>
+text { white-space: pre; }
+.label { font: 500 15px -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; letter-spacing: -0.01em; }
+</style>
+<rect x="0.75" y="0.75" width="109.5" height="36.5" rx="18.25" fill="none" stroke="#0071e3" stroke-width="1.5"/>
+<text x="18" y="24.25" class="label" fill="#0071e3">LinkedIn</text>
+<path d="M84 23.5L93 14.5M86.5 14.5H93V21" fill="none" stroke="#0071e3" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
